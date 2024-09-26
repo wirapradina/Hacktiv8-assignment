@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 50vh; 
+  background-color: #ecd9d9; 
+  padding: 10px;
+}
+
+.birthdayCard {
+  width: 100%;
+  max-width: 100vh;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif; 
+}
+
+.happy {
+  text-align: center;
+  color: #ff6b6b;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.cardInside {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.cardInside p {
+  font-size: 1.2em;
+  line-height: 1.6em; 
+  color: #333;
+  margin: 0 0 10px;
+  text-align: justify; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.cardInside .name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  color: #ff6b6b; 
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.cardInside img {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardInside p:last-of-type {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  color: #ff6b6b;
+  font-weight: bold;
+}
